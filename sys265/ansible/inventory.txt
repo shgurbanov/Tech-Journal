@@ -1,0 +1,14 @@
+[webmin]
+ansible02-walber
+[new_role]
+ansible01-walber
+[Windows]
+mgmt01-walber
+[Windows:vars]
+ansible_user=walber-adm@walber.local
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=ntlm
+ansible_winrm_port=5986
+
+
