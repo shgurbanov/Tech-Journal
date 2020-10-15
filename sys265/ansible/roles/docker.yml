@@ -1,0 +1,4 @@
+---
+- hosts: new_role
+  roles:
+    - arillso.docker 
